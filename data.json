@@ -1,0 +1,25 @@
+{
+    "news": [
+      {
+        "id": 1,
+        "title": "New Champion Release: Zephyr",
+        "summary": "Explore the abilities of the newest champion to join the League: Zephyr, the Wind Dancer.",
+        "image": "images/zephyr.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Patch 11.9 Updates",
+        "summary": "Dive into the changes and updates brought by patch 11.9.",
+        "image": "images/patch11.9.jpg"
+      }
+    ],
+    "communitySpotlights": [
+      {
+        "id": 1,
+        "title": "Player of the Month: SummonerXYZ",
+        "summary": "Celebrating the extraordinary achievements of SummonerXYZ in the past month.",
+        "image": "images/summonerxyz.jpg"
+      }
+    ]
+  }
+  

@@ -1,0 +1,353 @@
+[
+    {
+      "version": "14.4",
+      "date": "February 21, 2024",
+      "summary": "In this week's patch we have quite a few feels-good-to-play quality of life updates for some gameplay systems and champions. To kick things off we have a kit update for Rek'Sai, an update to help tethers in game feel more responsive, and some follow-up QoL adjustments for Smolder. We also have some feels-good-to-play-against changes to make champions like Illaoi, Fiora, and tank Bard more reasonable if you find yourself matched up with them. We're also making some updates to support power curves, fountain regeneration, Lost Chapter items, adjustments to Emerald+ LP gains, and ARAM! <br><br>In other news, this is the patch where we update our minimum specs to no longer support Windows 7, 8, and 8.1, so make sure you upgrade! We also have an update on the Vanguard rollout plan, so make sure you read the full section below for all the details.",
+      "url": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-14-4-notes/",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt55c1845efec5c7d8/65cc2b31a3ff757f0d506072/02212024_LoL_Patch_14_4_Notes_Banner.jpg"
+    },
+    {
+      "version": "14.3",
+      "date": "February 7, 2024",
+      "summary": "In this week's patch, we're continuing to make follow-up adjustments for champions and items that were affected by the itemization overhaul. This includes things like lowering overall burst in the game by reducing the amount of proc damage from items, giving some AP carries like Ziggs and Nidalee more durability to compensate them for changes to their core items, and adjusting champions that have found a bit too much success with the new item system (hello Rengar and Karma).<br><br>In other news, we also have our Heavenscale skinline coming out this patch, the return of URF, an update on the Vanguard rollout, and a reminder about Windows 7, 8, and 8.1 deprecation, so make sure to check out all the sections down below! ",
+      "url": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-14-3-notes/",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt8119faecaa62d9be/65cab252670d7e5357280f8b/2020_key_art_Banner.jpg"
+    },
+    {
+      "version": "14.2",
+      "date": "January 24, 2024",
+      "summary": "In this week's patch we're looking to address some of the champions that the 14.1 changes hit hardest. Some champs, like Camille and Illaoi, need the help due to the terrain changes, while others, like Ezreal and Fizz, struggled or thrived with the new items at their disposal. In addition to champion balance changes, we're also retuning a few of the items to get them into a better place. But that's not all, we also have a whole list of quality of life changes! <br><br>Make sure you check out the sections below on Vanguard and our Windows 7, 8, and 8.1 deprecation coming in the next few patches.",
+      "url": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-14-2-notes/",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blte7b1ef63107c8358/65a8a49c49a17daeb6cff3b2/2024_Key_Art.jpg"
+    },
+    {
+      "version": "14.1",
+      "date": "January 10, 2024",
+      "summary": "Welcome to the 2024 Season! Split 1 kickoff is quickly approaching, so make sure to read up on all the changes coming in 14.1 to get ready. THIS IS THE YEAR WE HIT OUR RANKED GOALS! This year we're starting off strong with a big gameplay update! We've got Voidgrubs, Voidmites, Voidborn Monsters, three Baron Nashor forms each with their own Baron Pit, map changes to every lane and jungle, over 100 item changes (including new items), a Hwei buff, dynamic music, new in-game quests, FIST BUMPS, and a lot more!",
+      "url": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-14-1-notes/",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt8f3858fdcff6d99a/65961c8da8ee43ea36199e21/10924_LoL_Patch_14_1_Notes_Banner.jpg"
+    },
+    {
+      "version": "13.24",
+      "date": "December 6, 2023",
+      "summary": "It's the last patch of the year and the next time you'll hear from us will be in patch 14.1 alongside all of the exciting gameplay changes. But that doesn't mean we don't have any presents for you this patch…<br><br>Our first gift is the newest addition to our roster—Hwei, the Visionary. With a whole palette of abilities at his disposal, Hwei provides players the opportunity to flex their big brains by choosing the perfect ability for each situation. So if you're interested in complex champions then this one's for you!<br><br>We also have the widely-requested return of Arena this patch! With over 180 balance adjustments, Arena is coming back better than ever. We're also adding in the ability to queue with up to 4 players or queue with a full party of 8 so you and your friends can really find out who the best gladiator is. With new mechanics, Augments, and cameos, there's plenty to learn and experiment with. So be sure to check it out.<br><br>In other news, we also have the last Clash of the year coming for ARAM, a delightful batch of new Winterblessed skins, a new Mythic Shop rotation, and more. So check out the full patch notes below and see you in 2024!",
+      "url": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-13-24-notes/",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltf6e1234810ef7df4/64c0765c75211b32bff34422/072823_Arena_FAQ_Banner.jpg"
+    },
+    {
+      "version": "13.23",
+      "date": "November 21, 2023",
+      "summary": "In this week's patch we're focusing on addressing a few outliers and refining changes made in a few of the last patches, like those to K'Sante. We're focusing more and more on getting the 2024 changes polished and ready for 14.1, so be aware that this patch and 13.24 may be a bit smaller and less complex than usual as 14.1 will undoubtedly shake things up!<br><br>In other news, we have some un-bee-lievably adorable Bee skins coming out this patch, a round of Nexus Blitz and ARAM balance adjustments, and last but certainly not least, this is the patch the Riot ID changes go into effect. We've made a few changes so make sure you check those out down below.",
+      "url": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-13-23-notes/",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt366e461a3acc1e4a/65544864cf92374c841b9e2d/112023_Patch_13_23_Notes_Banner.jpg"
+    },
+    {
+      "version": "13.22",
+      "date": "November 8, 2023",
+      "summary": "Outside of normally-sized balance changes, this patch has two big updates. The first is a sweep of mage and mage-like champion attack speed. We noticed that many mages had slow-feeling attack speeds and want to bring (almost) all of them up to a new baseline for missile speed and snappiness of their basic attack animations—with exceptions for champions who have functional auto attack replacements, like Karthus and Fiddlesticks. We're also injecting some early attack speed into mages who tend to run the attack speed stat shard, don't have any strong basic attack synergies in their kit, and don't already have elevated level 1 attack speed.<br><br>The second is a major kit update (salute) to Janna. We're bringing back elements of her kit from a few years ago with the goal of turning her into a more active participant in the game and less about long-range tornadoes.<br><br>Also in this patch be ready to pop off with the new Heartsteel skins, remix it up with the new Mythic Variant Breakout True Damage Ekko, or checkout the new rotation of the Mythic Shop. We also threw in some ARAM and Nexus Blitz adjustments for good measure! ",
+      "url": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-13-22-notes/",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt2f44a27a8b94699b/651e00db3091580235f08dad/101023_Patch_13_20_Notes_Banner.jpg"
+    },
+    {
+      "version": "13.21",
+      "date": "October 25, 2023",
+      "summary": "A large portion of this patch is a follow-up of 13.20. Overall, we hit our major goals for the changes—games are much less snowbally, players are fighting even more, and games are going only slightly longer on average. That said, late-game champions have been winning more than early-game champions, which means some re-balancing. The jungle changes have put junglers back on equal footing with other roles in the early game, but also really hurt AD junglers. So we're buffing them back up. Lastly, K'Sante's kit update achieved our goals around opening up his counterplay, but didn't give him as much power as we wanted, so we're serving him up some buffs.<br><br>In addition to follow-up changes, we're aiming to make Morgana, Seraphine, Brand, and Zyra viable in multiple roles.<br><br>Also coming this patch, is the long awaited return of Nexus Blitz with a few quality of life improvements, a new host of Cafe Cuties ready to serve up some Pentakills (but not you Lulu, please don't secure all my kills), a new rotation for the Mythic Shop, and finally another batch of ARAM balance adjustments. Don't forget about the Worlds Clash that will be happening in this patch as well! ",
+      "url": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-13-21-notes/",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt56ab0ca86aa7bda4/5d788c6cc249f709393c3fac/LOL_PROMOART_9-2.jpg"
+    },
+    {
+      "version": "13.20",
+      "date": "October 11, 2023",
+      "summary": "In this patch we have some pretty big changes, namely to the jungle and snowballing mechanics. For the jungle, our goals are twofold: first, we want to lower the power of the jungle as a role. Junglers are of supreme importance in the mid and late game due to their exceptional control over epic monsters, which means they do not need to be as dominant as they are in PvP interactions. Second, we want to ensure the role is satisfying to play. Lowering some of the stress around Smiting epic monsters with targeting forgiveness and protecting camps from non-jungle poaching should ensure they're able to perform. With regards to snowballing in League, our main goal is to decelerate how quickly teams can snowball early leads so that everyone can access other fun parts of the mid to late game like team fighting and objective planning that should have a bigger role in deciding games. We've got quite a few changes on these topics, so make sure you read more down below! We also have our usual balance adjustments as well, with some larger changes to K'Sante and more moderate ones for champs like Morgana and Bel'Veth.<br><br>We also have a lot of drops that you won't want to miss out on in this patch as well, like the Jax visual update, another round of additions to the Coven skin line, and last, but certainly not least, the much requested adaptation of Redeemed Xayah and Rakan for League! We'll also be updating the loading screen on Summoner's Rift to a new one celebrating the 2023 Worlds Championship.<br><br>Lastly we have some follow up adjustments to the ranked restrictions and ping adjustments from the last patch based on player feedback, so make sure to check those out as well.",
+      "url": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-13-20-notes/",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt2f44a27a8b94699b/651e00db3091580235f08dad/101023_Patch_13_20_Notes_Banner.jpg"
+    },
+    {
+      "version": "13.19",
+      "date": "September 27, 2023",
+      "summary": "In terms of balance work, we're doing a final tuning pass on several champions who've had an outsized impact on the Pro scene this summer and otherwise doing more routine balance on champions (or builds) whose overall power level is out of line.<br><br>In other news, in this patch we're introducing new ranked restrictions and ping adjustments to help tackle toxicity, a new audio accessibility update for global ultimates, a brand new skin line, La Ilusión, and the Tenfold Triumph chroma set! We'll also be testing some new introductory bot AI on PBE, so check it out if you're interested! ",
+      "url": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-13-19-notes/",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt0cfea10deca29f0e/64e7e07cf1ac3dc86df8ff19/2023-Key-Art.jpg"
+    },
+    {
+      "version": "13.18",
+      "date": "September 13, 2023",
+      "summary": "In this patch we welcome our newest champion to the Rift! Briar, the Restrained Hunger, is here and ready to sink her teeth into her foes. I wonder what champions taste like? Probably not very good... But that's not all we're serving up! We also have Ixtal Clash this weekend, a new Mythic Shop rotation, and a handful of street demons dishing out some chaos.<br><br>We are quickly approaching the League of Legends World Championship, which will be played on patch 13.19! As a result, we're continuing to trickle in more changes aimed at professional play. We're also doing follow ups on the previous patch: Jarvan was a big winner of last patch's item changes, Darkin Kayn's nerfs were fully compensated by item buffs, and Tryndamere landed stronger than we had intended. We're also tuning up a few champions and systems that haven't found meaningful success in either solo queue or Pro play.",
+      "url": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-13-18-notes/",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt55548c40c4f96cb8/64f91e9e20c4f98c9f6fb491/LOL_PROMOART_15.jpg"
+    },
+    {
+      "version": "13.17",
+      "date": "August 30, 2023",
+      "summary": "In this week's patch we have a few goals: First, we're taking a pass at fighters who have found themselves unsupported by current fighter item options. This includes changes to the kits of Aatrox, Hecarim, Vi, and Xin Zhao, who are frequently buying full-squishy builds but should feel more comfortable building a mix of damage and durability. <br><br>Second, we're amping up some fighter items. We're giving some items more durability and letting fighters rely on Goredrinker, Stridebreaker, or the significantly changed Spear of Shojin as items that give them enough tankiness to perform in a deadly team fight. Shojin's buffs specifically are aimed at making it an attractive second item for anyone who's started to snowball. In case you missed it, we take a deeper dive into this topic in our <a href='https://www.leagueoflegends.com/en-us/news/dev/quick-gameplay-thoughts-13-16/'>Quick Gameplay Thoughts 13.16</a>, so check that out if you're interested!<br><br>Third, we're taking a look at overall champion durability and addressing some outliers who have lost a lot of tankiness recently. While Yasuo and Yone have had their durability addressed with the loss of Shieldbow earlier in the year, we're also bringing Samira up to a new normal. Quinn and Akshan have shifted to squishier builds recently, so they're receiving changes too. And speaking of Shieldbow, we're tweaking crit-lifesteal items to make Shieldbow a more attractive option compared to Bloodthirster. Additionally, we're nerfing Evenshroud to be in line with Locket of the Iron Solari. In total, these changes should help bring up the average durability of champions, which has waned lately.<br><br>Also, making its long-awaited return this patch is the Blue Essence Emporium! The Emporium will go live for a two week run on September 6 at 20:00 UTC. Make sure to check it out and spend that Blue Essence before it goes away on September 20th, 2023 at 20:00 UTC. If you're running low on Essence and have a bunch of champion shards sitting around, check out the new mass disenchant feature we introduced last patch.",
+      "url": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-13-17-notes/",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blta5d74955d251449a/64ee3d578b0a26867f268324/082923_Patch_13_17_Notes_Banner_v2.jpg"
+    },
+    {
+      "version": "13.16",
+      "date": "August 16, 2023",
+      "summary": "In this week's patch we have quite a few changes coming at you, both on Summoner's Rift and in Arena. On the Rift side of things, we have some followup tweaks to Naafiri, a plan to make Shaco's boxes a bit less magical (and annoying), quite a few buffs to a wide variety of champs, and a QoL change for everyone's favorite Void dad. On the Arena front we've got 44 changes, mainly looking to bolster champions that could use the help in Arena while addressing some overperforming champions/augments/items. We also have a new batch of Immortal Journey skins gracing the Rift this patch and a Mythic Shop rotation, so make sure to check those out! ",
+      "url": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-13-16-notes/",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltb89de420533ddd12/63ed8abf2d0679107a695b35/2020_key_art_Banner.jpg"
+    },
+    {
+      "version": "13.15",
+      "date": "August 2, 2023",
+      "summary": "We hope you've all been enjoying our Soul Fighter summer event so far! At this point we're expecting that some of you have already finished scouting out and beating the existing competition, so we figured we'd just make even MORE competition for you. Make sure to keep an eye out for the second half of the Soul Fighter roster coming out this patch-they'll also be making their own cameo appearances in Arena so stay sharp out there Gladiators! <br><br>We've already had two micropatches for Arena, but we're not done yet! In order to keep the game experience fun and fresh we have another round of balance adjustments coming to you this patch. We hope you're all enjoying Arena and we're looking forward to seeing you in the ring!<br><br>Now let's get back to the balance changes for Summoner's Rift. In this patch we're knocking down Sejuani and Maokai who have been thriving in Pro play, giving Rell some nice QoL updates, and walking back some previous buffs that ended up being just a bit too strong. We also have some updates to how Smite interacts with pets, which required re-tuning their durability as well, so make sure to check those changes out down below! ",
+      "url": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-13-15-notes/",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt8662b5fef5bf5171/64ae06ce4e2d5e9076f76164/071823_Patch_13_14_Notes_Article_Banner.jpg"
+    },
+    {
+      "version": "13.14",
+      "date": "July 19, 2023",
+      "summary": "Welcome to the League of Legends summer event: <a href='https://www.leagueoflegends.com/en-us/news/game-updates/patch-13-14-notes/#patch-soul-fighter'>Soul Fighter</a>! We're excited for all of you to see what we've been cooking. In this event will be a brand new game mode, Arena, a new in-client metagame, Tournament of Souls, and a whole roster of fighters sporting our brand new Soul Fighter skinline.<br><br>Speaking of fighters, make sure to keep an eye out for Naafiri, our newest champion, who will be looking to claim her place as the apex predator on the Rift.<br><br>This patch also marks the beginning of Ranked Split 2. Make sure to check out the <a href='https://www.leagueoflegends.com/en-us/news/game-updates/patch-13-14-notes/#patch-mid-season-ranked-reset'>Mid-Season Ranked Reset section</a> down below which contains ranked kickoff times alongside all the changes coming to ranked this split, like the new Emerald tier.<br><br>Now to your regularly scheduled patch content. This week we are incrementally raising top lane carry potential, lowering early jungle gank power, and nudging down bot lane mobility. We have some nifty QoL adjustments to Zyra, Xerath, and Lissandra, some assassin tuning, and another round of ARAM balance adjustments coming. ",
+      "url": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-13-14-notes/",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt8662b5fef5bf5171/64ae06ce4e2d5e9076f76164/071823_Patch_13_14_Notes_Article_Banner.jpg"
+    },
+    {
+      "version": "13.13",
+      "date": "June 28, 2023",
+      "summary": "As a quick reminder, this will be a 3-week long patch due to Riot's annual mid-year break. You can check out our full patch schedule for 2023 <a href='https://support-leagueoflegends.riotgames.com/hc/en-us/articles/360018987893-Patch-Schedule-League-of-Legends'>here</a>.<br><br>In this patch, we're looking to address a few over-performing champions like Aphelios, Ivern, and Rell, while giving Lee Sin and Nidalee a little extra power. We're also adjusting a few items like Statikk Shiv (sorry LeBlanc) and Stormrazor alongside a few ARAM balance adjustments.<br><br>It's the last patch of Split 1 (in case you missed it two paragraphs ago)! If you're pushing to break into that next tier it's game time, because your rank will be locked for rewards on July 17, 2023 at 11:59pm your local time. Best of luck with your climbs and see you next split!",
+      "url": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-13-13-notes/",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltf06237d0ebbe32e0/64ee42439b2a80b86f98f196/Patch_13_13_Notes_Banner.jpg"
+    },
+    {
+      "version": "13.12",
+      "date": "June 14, 2023",
+      "summary": "We have quite a few changes this patch, but two main goals: following up on midseason tuning and tackling a few champions that have been problematic in Pro play like Lulu, Yuumi, Kha'Zix, and Zeri. In other news, this patch contains our new Mythic skinline, Crystalis Motus, a new Mythic shop rotation, new Shan Hai Scrolls skins, and a batch of ARAM adjustments!<br><br>This is also the second to last patch of Split 1, so make sure you're getting those games in before your rank is locked in and pulled for rewards on July 17! For more information on the ranked reset, and what all is coming in Split 2, check out our What's Next for Ranked post <a href='https://www.leagueoflegends.com/en-us/news/game-updates/what-s-next-for-ranked/'>here</a>.",
+      "url": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-13-12-notes/",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blta4c836f9786519e1/6481049dea50bc1c33be78e0/061323_LOL_Patch_13_12_Notes_Banner.jpg"
+    },
+    {
+      "version": "13.11",
+      "date": "June 1, 2023",
+      "summary": "Did you all catch MSI? Huge congratulations to JDG for coming out on top! Riding the esports wave, we also have a skinline to celebrate last year's World Champions, DRX, coming out this patch, with a special Prestige skin for Aatrox to celebrate Kingen's dominating MVP performance!<br><br>In other news, we also have some exciting changes coming this week like Rell's midscope update, universal buff sharing for junglers, some nerfs for Aphelios and Jinx, and quite a few followup changes to the Midseason update that came out in 13.10. ",
+      "url": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-13-11-notes/",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blte5a2428c1d208b07/5d788c6d368f3f093e92df84/LOL_PROMOART_10.jpg"
+    },
+    {
+      "version": "13.10",
+      "date": "May 17, 2023",
+      "summary": "In the midseason update we're aiming to address a few core issues with League's current state, namely ADC and Support itemization options, problematic Assassin items, and how the early game is played out. We also have a batch of ARAM adjustments, a Mythic Shop rotation, and some new Snow Moon skins. So without further ado, here's your midseason patch!",
+      "url": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-13-10-notes/",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltccdc2c17c7c18731/645c26df6d595a1e68fa300a/2022-Key-Art.jpg"
+    },
+    {
+      "version": "13.9",
+      "date": "May 3, 2023",
+      "summary": "This week's patch will be a bit on the lighter side as we prepare for 13.10 which will be our biggest patch since the season started. The star of this patch will be the new minion jungle plant ward Neeko midscope, but we also have a few quality of life buffs and adjustments for a few champions that just aren't quite hitting the spot we'd like them to.<br><br>Don't forget that MSI kicks off in London TODAY. If you need a quick rundown of all the changes including the new format, make sure to check out our MSI 2023 Primer <a href='https://lolesports.com/article/msi-2023-primer/bltb6358c9e252470e2'>here</a>!",
+      "url": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-13-9-notes/",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt132112adb6e293fd/6449beefef41f64ab2952601/050223_LoL_Patch_13_9_Notes_Banner.jpg"
+    },
+    {
+      "version": "13.8",
+      "date": "April 19, 2023",
+      "summary": "Thirteen teams from all around the world will battle it out for the title of MSI Champion on patch 13.8 starting on May 2, so make sure to mark those calendars! We're also shaking things up with a new format for the tournament, so get ready for some intense competition. In case you missed it, you can check out the new MSI format <a href='https://lolesports.com/article/save-the-date-msi-2023-is-coming-to-london-/blte27eccb71ba7688b'>here</a>.<br><br>For MSI we're focusing on introducing more champion diversity into pro play. This is coming in the form of buffs for some under-utilized champions like Ezreal, Leona, and Lillia, while we address some of the overperforming picks like Jarvan IV, Malphite, and Rakan. But that's not all! We also have some QoL improvements to Challenges, a new set of Night and Dawnbringer skins, and last but certainly not least, we're introducing the ability to report players from your match history. ",
+      "url": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-13-8-notes/",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blte2bf70cc3c4eb6b8/643749e01657c91143e2d348/LoL_13-8_Patch_notes_Banner.jpg"
+    },
+    {
+      "version": "13.7",
+      "date": "April 5, 2023",
+      "summary": "This patch is addressing quite a few popular junglers in professional play like Vi, Sejuani, and everyone's favorite monk, Lee Sin. We're starting balance work now to get the meta in good shape for the 2023 Mid-Season Invitational, which means knocking top tier picks down a few pegs. You can also expect some more pro-oriented buffs coming in the next few patches.<br><br>But it's not all about MSI! We also have some other changes this patch like making Rammus a bit softer, bugfixing Kha'Zix, and a new batch of April Fools skins. The next Clash Cup is also around the corner this weekend, and as a final reminder, all 32-bit clients will no longer be supported as of April 4 when patch 13.7 rolls out, read more details further below. And last but certainly not least, the Season 2023 Split 1 End is coming in 104 days, so I hope your climb is going well.",
+      "url": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-13-7-notes/",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt8979808f7798ecf5/6216ee875fe07272a8a2447a/2021_Key_art.jpg"
+    },
+    {
+      "version": "13.6",
+      "date": "March 22, 2023",
+      "summary": "But wait, there's more! We also have quite a few changes aimed at addressing the current early game bot lane skirmish meta with adjustments to ADCs and Drakes, a stunning new skin line thematic, a vaguely worded update on blind pick, and a new Mythic shop rotation! As a reminder, this is the last patch that League and TFT will be playable on a 32-bit client, so make sure you move to the 64-bit version.",
+      "url": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-13-6-notes/",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt916643dfd88c75de/6414ea66c91556429e0f69e7/032123_Patch_13_6_Notes_Banner_v3.jpg"
+    },
+    {
+      "version": "13.5",
+      "date": "March 8, 2023",
+      "summary": "In this week's patch we have Yuumi's much anticipated rework, several adjustments to Azir to help address his Pro skew, some buffs to roaming mid laners, and some buffs to counter jungling. In other news, we have some changes to ARAM including removing tower rubble, an update on the champion pricing changes, and an announcement about the depreciation of our 32-bit client. ",
+      "url": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-13-5-notes/",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt55da176a88f21fd2/5d788cbedb54493ebd97f1c6/LOL_PROMOART_14.jpg"
+    },
+    {
+      "version": "13.4",
+      "date": "February 23, 2023",
+      "summary": "We've got a doozy of a patch for you this week with 28 balance adjustments! In this patch all of the support gold income items get fine tuned, clear speed time is being slowed down a tad, Maokai gets his power trimmed, Thresh is getting hooked on a new skill level order, and Veigar (our favorite short king) gets some range increases on his abilities. In other news, we're introducing the /muteself and /deafen functions, party chat, and finally increasing the amount of LP gained per win. But be careful, the amount you lose has increased as well.",
+      "url": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-13-4-notes/",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltb89de420533ddd12/63ed8abf2d0679107a695b35/2020_key_art_Banner.jpg"
+    },
+    {
+      "version": "13.3",
+      "date": "February 9, 2023",
+      "summary": "But wait, there's more! We have Ahri's ASU for confirmed 100% fluffier tails (this is not a legally binding claim), buffs for a few struggling melee supports, nerfs to some popular items like Umbral Glaive and Radiant Virtue, sweeping Tenacity tweaks, and now you can surrender at 15 minutes if 4 of 5 players agree. As always, thanks for reading and see you on the Rift!",
+      "url": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-13-3-notes/",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt21f460985ad46f4b/63d9db8ae4e29e75dc5dee63/020723_Patch_13_3_Notes_Banner.jpg"
+    },
+    {
+      "version": "13.1B",
+      "date": "January 25, 2023",
+      "summary": "We're one patch into the year and following up Preseason with some sweeping changes to marksmen, their items, and fighter items. We also have a few pro-skewed nerfs to address the likes of Lucian/Nami and Yuumi, Chemtech Drake buffs, new Lunar Gods skins, and an update to surrender voting. See you on the Rift!",
+      "url": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-13-1B-notes/",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt30d3d484527d8e5a/5fb5eee4fd99385ff6006de3/LOL_PROMOART_9-1.jpg"
+    },
+    {
+      "version": "13.1",
+      "date": "January 11, 2023",
+      "summary": "We hope you've been keeping up with the Preseason changes because the new season of League kicks off on January 10, and with it begins the Ranked climb! In this patch we have a few big changes to Ranked (like promos changing from 5 to 3 games), so make sure to check out the full Competitive section down below. In other news, we have some Preseason balance followup, a Jax midscope update, a Mythic shop rotation, and an adjustment to the refund token system included in this week's notes. <br><br>Thanks for playing with us in 2023 and happy climbing!",
+      "url": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-13-1-notes/",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltbc7f0a4656800006/5e55be969c1f570dcb33d9ac/LOL_PROMOART_9-2.jpg"
+    },
+    {
+      "version": "12.23",
+      "date": "December 6, 2022",
+      "summary": "Welcome to the ARAM/post-Preseason patch! This week we have a few large changes shipping to the Howling Abyss—like Frostgates, bridge repairs, and landscaping—so make sure you give them a try in our first-ever, free-to-enter ARAM Clash! We also have some Preseason follow ups shipping this patch to help a few struggling tanks, power down some overperforming junglers (Mordekaiser), and a shocking Zeri update.<br><br><em>(Author's Note: This is going to be a long patch as many of us will be on a Riot-wide break for the end of December. We'll likely have mid-patch updates before we head out and when we get back, so if there are any big issues we'll do our best to tackle them but we appreciate your patience!)</em><br><br>Thanks for playing with us in 2022 and we're looking forward to seeing you in 2023! ",
+      "url": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-12-23-notes/",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt4d280f349eb96be1/5e44ba3132797c0d2ce79520/LOL_PROMOART_6.jpg"
+    },
+    {
+      "version": "12.22",
+      "date": "November 15, 2022",
+      "summary": "The patch notes are here and there's A LOT of them. We have Chemtech Drake's redemption arc, a brand new Chemtech Rift, three new adorable jungle companions, seven new items, new ARAM balance changes, new… well you get the point.<br><br>Welcome to League of Legends 2023 Preseason!",
+      "url": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-12-22-notes/",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltd033a85c0bb81ff0/636db6940e084811255f33a3/111522_Patch_12_22_Notes_Banner_v2.jpg"
+    },
+    {
+      "version": "12.21",
+      "date": "November 1, 2022",
+      "summary": "This is going to be a relatively light patch as we get ready for all the exciting Preseason changes around the corner, so we're doing a few smaller balance adjustments this time around. That said, big things come in small packages and this patch introduces K'Sante, the Pride of Nazumah, so make sure to try him out! Thanks for reading and see you in the next patch! ",
+      "url": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-12-21-notes/",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltf06237d0ebbe32e0/64ee42439b2a80b86f98f196/Patch_13_13_Notes_Banner.jpg"
+    },
+    {
+      "version": "12.20",
+      "date": "October 19, 2022",
+      "summary": "Okay, in all honesty, this patch isn't all treats, it looks like a few nerfs snuck into our bag of goodies. We're bringing down the power levels of a few overperforming champs like Maokai and Aatrox to make them a bit less terrifying. On the bright side, we do have some enchanting buffs for champions like Evelynn and Gwen—'tis their season after all! Lastly, we have a new batch of <s>goodies</s> bewitching skins that'll scare your socks off!<br><br>We'll also be introducing a big update to our language detection system in this patch. Now zero tolerance language will be detected and stopped LIVE and players using this language will automatically be system muted.",
+      "url": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-12-20-notes/",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt7251f20c96249085/5dc1c1b3a7387b0187ebe112/lol_promoart_15_0.jpg"
+    },
+    {
+      "version": "12.19",
+      "date": "October 5, 2022",
+      "summary": "In this patch we'll be introducing Syndra's midscope update, make sure to read on to learn more about all of her adjusted and upgraded abilities! This patch also contains quite a few buffs to some off-meta builds, a Janna VFX update that'll blow you away, and information on the new Event Pass Evolved System. Thanks for reading and see you on the Rift!",
+      "url": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-12-19-notes/",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt4756ba497391bea8/6334eb094df1082a16b60e48/100422_LOL_Patch_Notes_12_19_Banner.jpg"
+    },
+    {
+      "version": "12.18",
+      "date": "September 21, 2022",
+      "summary": "Following the trend of our last two patches, 12.18 is focused on tuning down some overperforming picks in Pro like Kalista and Lulu, while giving a little power to champions just under everyone's radar. Since our goal isn't to completely change the meta from playoffs, these adjustments will be on the lighter side. And with that, to Worlds we go! ",
+      "url": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-12-18-notes/",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt309e89577418db01/5ea169bb3e818760fab3191f/LOL_PROMOART_13.jpg"
+    },
+    {
+      "version": "12.17",
+      "date": "September 8, 2022",
+      "summary": "With Worlds being played on patch 12.18 this is the last opportunity for us to introduce larger scale changes without significantly changing the current state of the meta in Pro play. This patch we'll be focusing on pulling some power out of picks that have been dominating playoffs throughout the world. That said, we also have quite a few buffs for champions that haven't been seeing as much play recently, as well as larger scope updates to champions like Maokai and Hecarim. Without further ado, to Worlds we go!",
+      "url": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-12-17-notes/",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt77b3c2f2473270b6/5e4d89e5534f9854b20af586/LOL_PROMOART_10_banner.jpg"
+    },
+    {
+      "version": "12.16",
+      "date": "August 24, 2022",
+      "summary": "With World's slowly sneaking up on us, we wanted to let you know that this will be the first of several patches that will address balance issues at the highest levels of play. That said, this patch Udyr's VGU will be hitting the Rift so be sure to give it a try! We're also making quite a few ARAM balance adjustments, introducing a super-secret-special game variant to Ultimate Spellbook, and rotating the Mythic Shop.",
+      "url": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-12-16-notes/",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt9f4bd3280817935d/5fd9cb9ada1c393383d411f0/2020_Banner.jpg"
+    },
+    {
+      "version": "12.15",
+      "date": "August 10, 2022",
+      "summary": "In this week's installment of Patch Notes we're giving energy based champions a little boost, doing some follow-up fine tuning to Master Yi and Sivir, and buffing up some engage supports. We're also tapping down Divine Sunderer and First Strike's power so they aren't always super effective. Now come with me, the time is right — it's patch 12.15! ",
+      "url": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-12-15-notes/",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt0b6d1c6549257d2b/62fd90e82914326e6e5fcbda/082322_Patch_12_16_Notes_Banner.jpg"
+    },
+    {
+      "version": "12.14",
+      "date": "July 27, 2022",
+      "summary": "This patch includes several healing targeted updates to bring League's hyper healers (and their items) to justice. We're also making some adjustments to drakes, Elder Dragon, and Rift Herald as well as a few runes and summoner spells. Lastly, we're welcoming the second half of everyone's favorite high school superheroes, the Star Guardians, to the Rift this patch! Fight on Star Guardians!",
+      "url": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-12-14-notes/",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltc7f43fe2bdd3f1e1/62d8966ed9851110d46cf998/072622_LoL_Patch_12_14_Notes_Banner_v2.jpg"
+    },
+    {
+      "version": "12.13",
+      "date": "July 13, 2022",
+      "summary": "On this week's episode of Patch Notes, we have the premiere of our newest champion (and Star Guardian) Nilah, the Joy Unbound! We also have the Star Guardians, new and old, making their appearance again to protect us from the forces of evil. Sivir's mid-scope update also debuts this patch, not to mention your regularly scheduled balance adjustments.<br><br>We interrupt your regularly scheduled patch notes to say a big goodbye to our patch note author ahrisoo, who is leaving on an adventure to become Dr. ahrisoo. Your patch notes (and patch jokes) will be missed!<br><br>Read on to see if the true treasure of patch notes was the friends LP we made along the way.",
+      "url": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-12-13-notes/",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt99297fcea9a48f20/62cdcda965187e36e4763f05/Star-Guardian-Key-Visual-1.jpg"
+    },
+    {
+      "version": "12.12",
+      "date": "June 23, 2022",
+      "summary": "We're here with another set of balance changes, several of which are continued follow-ups to the 12.10 Durability Update. Certain heals and shields are getting further adjustments, while select burst and engage mechanics will receive the little extra oomph that they needed. Champion pets can have a little durability, too.<br><br>This patch also brings back the Essence Emporium for a limited time. The Mythic Shop is also rotating for the first time ever, introducing Ashen Knight Pantheon and more. And oh, was that a chill in the air? The Snow Moon must be rising...",
+      "url": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-12-12-notes/",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt30d3d484527d8e5a/5fb5eee4fd99385ff6006de3/LOL_PROMOART_9-1.jpg"
+    },
+    {
+      "version": "12.11",
+      "date": "June 8, 2022",
+      "summary": "The numbers are in and… champions are now more durable! After the sweeping changes we introduced in the last patch, this week we're on cleanup duty to restore balance to the Rift. Two big things to keep in mind here. First of all, we don't want to over nerf/buff any champions as an immediate response to the Durability Update. We're avoiding this by considering each champs' individual strengths and weaknesses relative to their overall class/role balance and preferred itemization choices. Second, since the 12.10 healing and shielding nerfs were done across the board, they ended up affecting some champs more than others. This round, we're going through champs individually and returning heal and shielding power where needed, or reinvesting that lost power into other aspects of their kit.<br><br>In other news, we also have the brand new Ocean Song skin line releasing this patch and with it Prestige Ocean Song Seraphine for a limited time. (Before you ask, no, the Ocean they're in isn't the same as Bel'Veth's Lavender one.)",
+      "url": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-12-11-notes/",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltdf6f30def332c3df/6298387236712c4150de038a/060722_Patch_12_11_Notes_Banner.jpg"
+    },
+    {
+      "version": "12.10",
+      "date": "May 25, 2022",
+      "summary": "This patch is a doozy, y'all. We've been working on a sweeping set of changes to increase champion durability across the board. So, unlike other patches that typically focus on balance via individual tweaks, 12.10 is all about evenly increasing durability overall (and nerfing related systems accordingly, like heals, shields, and sustain). You can expect to see longer fights throughout the game, more effort required to burst down your foes, and bigger windows of opportunity for skill expression. Read on for the details, and check out the most recent Quick Gameplay Thoughts for even more context!<br><br>We expect this patch will shift the meta quite a bit, but as always, we'll keep an eye out for any critical follow-up needed. GLHF! ",
+      "url": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-12-10-notes/",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltb16f7bf3691493f5/5e32376ae147ae4537d93a32/LOL_PROMOART_5.jpg"
+    },
+    {
+      "version": "12.9",
+      "date": "May 11, 2022",
+      "summary": "Make sure to brace yourselves for more axes and rocks because the mid-scope updates for Olaf and Taliyah go live this patch! Other challenges we'll be tackling in this edition of Patch Notes include zombies running into towers, capitalist chem-baron monopolies, foxes dashing around the Rift, a not-so-jolly mustachioed man, and cowboys rootin', tootin', and (by god?) shootin' in my Ranked games.<br><br>Make sure to follow the <a href='https://lolesports.com/article/msi-2022-primer/bltb35a3ed659a84bd2'>Mid-Season Invitational</a> in Busan where Group Stage will be kicking off on May 10! We'll also be releasing the EDG skinline in celebration of their 2021 World Championship win!",
+      "url": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-12-9-notes/",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltf06237d0ebbe32e0/64ee42439b2a80b86f98f196/Patch_13_13_Notes_Banner.jpg"
+    },
+    {
+      "version": "12.8",
+      "date": "April 27, 2022",
+      "summary": "Yup, you heard that right. This is the patch that the <a href='https://lolesports.com/article/mid-season-invitational-2022-update/bltd6b5a63691b4faf6'>Mid-Season Invitational 2022</a> will be played on, starting on May 10th! We have a diverse mix of champion buffs and nerfs to set the global stage, along with the long-awaited Swain midscope update. Keep reading for more news on the Mythic Content as well, including Showcase Milestones—just in time for Prestige Lunar Eclipse Senna and all the other Solar & Lunar Eclipse Knights. And last but not least, we've also got a couple o' scallywag stragglers aboard the latest set of skins.<br><br>Who will you be rooting for next month?",
+      "url": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-12-8-notes/",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltf7f4fa78799c9240/625f78e001fc7752fb534770/042622_Patch_12_8_Notes_Banner.jpg"
+    },
+    {
+      "version": "12.7",
+      "date": "April 13, 2022",
+      "summary": "In this round of patch notes you may notice that some of our changes explicitly mention pro play. This is because <a href='https://lolesports.com/article/msi-2022-is-heading-to-south-korea!/blt943672b46e1c1f59'>MSI is right around the corner</a> and is set to be played on patch 12.8! We're aiming to shake up the meta a bit to allow for some more diverse picks in 12.7 and 12.8, but we're introducing some spicier changes in 12.7 so that we can make additional adjustments in 12.8 if needed.<br><br>In this edition of patch notes, we're buffing some underpowered champs like Pantheon and Wukong, dropping some nerfs on stronger items like Galeforce and Winter's Approach, and releasing some out-of-this-world Arcana skins!",
+      "url": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-12-7-notes/",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt55da176a88f21fd2/5d788cbedb54493ebd97f1c6/LOL_PROMOART_14.jpg"
+    },
+    {
+      "version": "12.6",
+      "date": "March 30, 2022",
+      "summary": "Anima Squad up, that is. It's been a hot minute since the mid-patch 12.5 balances, so there's a lot in store this week. In addition to some spunky new sci-fi skins, we have buffs and nerfs galore, a set of adjustments to Rengar, and systemic changes to sustain items and runes. Phase 1 of the Mythic Content Overhaul is also finally here! Keep reading to find out more about Mythic Essence, the Mythic Shop, unvaulted Prestige skins, and an update on Phase 2.<br><br>Anyway, back to the Rift—heard norms are looking kinda sus this week, gonna go check that out...",
+      "url": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-12-6-notes/",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltcfe2cb7fa21b23db/5e7296023ed79e6484b31cf0/LOL_PROMOART_13.jpg"
+    },
+    {
+      "version": "12.5",
+      "date": "March 2, 2022",
+      "summary": "This time around, we'll bee doing a relatively light patch! There will bee some nerfs to stronger champs like Ahri and Gwen, while some champs like Samira and Seraphine support will bee getting some buffs. We're also taking some of the sting out of Hullbreaker's power for ranged champions and, most importantbee, we also have some additions to the Bee skinline this patch!<br><br>As a heads up, patch 12.5 will bee live for one month, with 12.6 going out on March 30. Don't worry though, we'll still beekeeping an eye out for any urgent issues that may pop up. Read more about why in this article <a href='https://www.riotgames.com/en/news/riot-is-going-afk-for-a-week-in-march'>here</a>!. And, if you need a refresher on the patch release dates, check out our Patch Schedule for 2022 <a href='https://support-leagueoflegends.riotgames.com/hc/en-us/articles/360018987893-Patch-Schedule-League-of-Legends'>here</a>!",
+      "url": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-12-5-notes/",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt8979808f7798ecf5/6216ee875fe07272a8a2447a/2021_Key_art.jpg"
+    },
+    {
+      "version": "12.4",
+      "date": "February 16, 2022",
+      "summary": "This patch the Chem-Baroness Ms. Renata Glasc begins her corporate takeover of the Rift. We also have a few buffs for Kalista, Lucian, and Xayah to freshen up the current ADC assortment among other balances. Meanwhile in top lane, things have been a little tense with our enchanter friends, so we have some support gold income changes to help address the current situation. Lastly, be sure to keep your heart rate in check as we introduce a new set of stunning Shockblade skins! ",
+      "url": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-12-4-notes/",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt37927f7aeba81182/61ef25b21e207a3729b8f07c/LOL_PROMOART_12.jpg"
+    },
+    {
+      "version": "12.3",
+      "date": "February 2, 2022",
+      "summary": "We've carefully plucked a delicate bouquet for you this patch, including several champion nerfs and a significant update to the fighter item system. This is also our first patch reacting to Pro play on the preseason meta, so there's a lot of focus on balancing that skill bracket this week. Ahri's champion refresh is another part of the floral mix and, last but not leaf, the rest of the Crystal Rose and Withered Rose skins will be available soon. ❀",
+      "url": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-12-3-notes/",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt76aa5627378fc122/61f20c6e5425f4730f02fdf0/020122_LOLPatch1203Notes_Banner.jpg"
+    },
+    {
+      "version": "12.2",
+      "date": "January 20, 2022",
+      "summary": "This patch, we're introducing an electrifying new personality to the Rift, plus a ton of champion balance changes. There's a champion refresh for Janna in the forecast as well as more item, dragon, and rune adjustments, too.<br><br>The Lunar Revel event is also in full moon swing this week! Celebrate the Year of the Tiger with us with special events including the return of ARURF, exciting missions (with <a href='https://www.leagueoflegends.com/en-us/news/game-updates/lunar-revel-2022-changes-to-event-missions/'>reduced points requirements</a>), and beautiful new Porcelain, Firecracker, and Prestige skins. Happy Lunar New Year!",
+      "url": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-12-2-notes/",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt253413263067edd0/5d788c6c689db03073fb3c04/LOL_PROMOART_12.jpg"
+    }
+  ]
+  

@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.banner {
+    position: relative;
+    overflow: hidden;
+    height: 500px; /* Example height, adjust as necessary */
+  }
+  
+  #bannerVideo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    z-index: -1; /* Ensures the video stays in the background */
+  }
+  
+  .banner-content {
+    position: relative;
+    z-index: 1; /* Ensures text appears above the video */
+    color: #ffffff; /* Ensures text is readable over the video */
+    text-align: center; /* Centers the text */
+    padding: 50px 20px; /* Adds padding around the text */
+  }
+  
+
+
+.latest-news, .intro-lol, .featured-guides, .community-spotlight {
+    padding: 20px;
+    text-align: center;
+}
+
+.latest-news {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; 
+}
+
+.patches-container {
+    display: flex;
+    justify-content: space-evenly; /* Adjust based on your layout preference */
+    flex-wrap: wrap; /* Allows items to wrap as needed */
+}
+
+.patch-note-card {
+    flex: 1 1 45%; /* Adjust the flex-basis to control the card size */
+    max-width: 45%; /* Prevents the card from growing too large */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: adds shadow for depth */
+    margin: 10px; /* Spacing between cards */
+    display: flex; /* Makes the image and info side by side */
+    align-items: center; /* Aligns items vertically */
+}
+
+.patch-note-info {
+    padding: 20px;
+}
+
+.patch-note-info a{
+    position: top;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}

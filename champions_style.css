@@ -1,0 +1,110 @@
+.champions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.champion-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.champion-card img {
+    width: 100%;
+    height: auto;
+}
+
+.champion-card h2, .champion-card p {
+    margin: 10px;
+}
+
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* Popup Content Box */
+.popup-content {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    width: auto;
+    max-height: 90vh;
+    overflow-y: auto; /* Allows scrolling if the content is too tall */
+}
+
+.popup-inner {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.champion-image img {
+    max-width: 100%; /* Ensures the image is fully visible within its container */
+    height: auto;
+}
+
+.champion-details {
+    padding-left: 20px; /* Adds some space between the image and the text */
+}
+
+.ability img {
+    width: 50px; /* Adjust as needed */
+    height: auto;
+    vertical-align: middle; /* Aligns image with text */
+}
+
+.abilities-icons {
+    display: flex;
+    justify-content: start; /* Align skill icons at the start */
+    flex-wrap: wrap; /* Allows icons to wrap to the next line if there's not enough space */
+    gap: 10px; /* Adds some space between icons */
+}
+
+.skill-icon {
+    cursor: pointer; 
+    transition: transform 0.2s; 
+}
+
+.skill-description {
+    margin-top: 20px; 
+}
+
+.skill-icon:hover {
+    transform: scale(1.1); 
+}
+
+.skill-icon-selected {
+    border: 3px solid darkgreen; 
+    border-radius: 4px; 
+}
+
+.popup-inner {
+    display: flex;
+    flex-direction: row;
+    align-items: start; /* Align items at the start of the container */
+    max-width: 100%;
+}
+
+.champion-image, .champion-details {
+    flex: 1; /* Allows both the image and details to take up equal space */
+}
+
+
+.close-btn {
+    /* Existing styles */
+    cursor: pointer;
+}
