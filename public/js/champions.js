@@ -1,6 +1,7 @@
 // used https://developer.riotgames.com/docs/lol
 
 let latestVersion = ''; // Store the latest game version globally
+let championsData = []; // Define championsData as an empty array
 
 fetch('https://ddragon.leagueoflegends.com/api/versions.json')
     .then(response => response.json())
@@ -11,15 +12,22 @@ fetch('https://ddragon.leagueoflegends.com/api/versions.json')
     })
     .then(response => response.json())
     .then(data => {
-        populateChampions(data.data); // Populate champions with initial data
+        championsData = Object.values(data.data); // Assign fetched data to championsData
+        populateChampions(championsData); // Populate champions with initial data
     })
     .catch(error => console.error('Error fetching champions data:', error));
 
-
-
 function populateChampions(data) {
     const container = document.getElementById('champions');
-    Object.values(data).forEach(champ => {
+    container.innerHTML = ''; // Clear the container before populating
+    displayChampions(data); // Pass the data to displayChampions
+}
+
+function displayChampions(champions) {
+    const container = document.getElementById('champions');
+    container.innerHTML = ''; // Clear the container before populating
+
+    champions.forEach(champ => {
         const champElement = document.createElement('div');
         champElement.className = 'champion-card';
         champElement.innerHTML = `
@@ -32,6 +40,14 @@ function populateChampions(data) {
         // Event listener for opening the popup
         champElement.addEventListener('click', () => openPopup(champ));
     });
+}
+
+window.searchChampions = function() {
+    const searchTerm = document.getElementById('searchBar').value.toLowerCase();
+    const filteredChampions = championsData.filter(champ =>
+        champ.name.toLowerCase().includes(searchTerm)
+    );
+    displayChampions(filteredChampions); // Display only champions that match the search term
 }
     
 // Updated function to open a popup with more details including abilities
@@ -115,5 +131,3 @@ function openPopup(champ) {
     
 
 
-// Call the function to populate champions on page load
-populateChampions(championsData);

@@ -1,0 +1,44 @@
+header {
+    background-color: var(--dark);
+    color: #f8e5e5;
+    padding: 20px;
+    text-align: center;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    background-color: var(--cream);
+}
+
+
+header .logo {
+    font-size: 24px;
+}
+
+footer {
+    background-color: var(--dark);
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}

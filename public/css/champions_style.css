@@ -1,3 +1,20 @@
+.title {
+    margin-top: 10px;
+    color: var(--strong-orange);
+    padding: 20px 0;
+    text-align: center;
+}
+
+#searchBar {
+    margin-top: 20px;
+    padding: 10px;
+    width: 90%; 
+    max-width: 400px; 
+    border: 2px solid #333; 
+    border-radius: 5px; 
+}
+
+
 .champions-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -6,7 +23,14 @@
 }
 
 .champion-card {
-    background: #fff;
+    background: #eed9c4;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
@@ -37,7 +61,7 @@
 
 /* Popup Content Box */
 .popup-content {
-    background-color: white;
+    background-color: var(--soft-orange);
     display: flex;
     flex-direction: column;
     max-width: 80%;

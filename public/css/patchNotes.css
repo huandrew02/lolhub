@@ -1,13 +1,6 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f3f3f3;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #123456;
-    color: #ffffff;
+.title {
+    margin-top: 10px;
+    color: var(--strong-orange);
     padding: 20px 0;
     text-align: center;
 }
@@ -23,7 +16,7 @@ main {
 }
 
 .patch {
-    background-color: #ffffff;
+    background-color: #eed9c4;
     border: 1px solid #dddddd;
     padding: 20px;
     border-radius: 8px;
@@ -44,4 +37,4 @@ main {
     max-width: 400px; 
     border: 2px solid #333; 
     border-radius: 5px; 
-  }
+}
