@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+
+    justify-content: center;
+}
+
+#newForumForm, #forumsList {
+    margin-top: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #10b692;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #326dac;
+}
+
+.header {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.main-container {
+    width: 80%;
+    max-width: 980px;
+    margin-top: 20px;
+}
+
+.forum {
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.forum h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.forum p {
+    color: #666;
+}
+
+.comment-input,
+.comments-container {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.comment-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+.comment {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #eee;
+    padding: 8px;
+    color: #333;
+}
+
+.comments-container {
+    background: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.toggle-comments-btn {
+    margin-bottom: 10px;
+    margin-left: 10px; /* Added margin to separate the buttons */
+}
