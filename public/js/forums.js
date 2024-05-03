@@ -40,23 +40,22 @@ function fetchForums() {
                 <p>${forum.description}</p>
                 <textarea class="comment-input" id="comment-input-${forum.id}" placeholder="Write a comment..."></textarea>
                 <button onclick="postComment(${forum.id})">Submit Comment</button>
-                <button class="toggle-comments-btn" onclick="toggleComments(${forum.id})">Collapse Comments</button>
-                <div class="comments-container" id="comments-container-${forum.id}"></div>
+                <button class="toggle-comments-btn" onclick="toggleComments(${forum.id})">Expand Comments</button>
+                <div class="comments-container" id="comments-container-${forum.id}" style="display: none;"></div>
             `;
             forumsList.appendChild(forumDiv);
-
-            // Fetch comments for the forum
             fetchComments(forum.id, `comments-container-${forum.id}`);
         });
     })
     .catch(error => console.error('Error fetching forums:', error));
 }
 
+
 function toggleComments(forumId) {
     const commentsContainer = document.getElementById(`comments-container-${forumId}`);
-    const toggleButton = document.querySelector(`#comments-container-${forumId} + .toggle-comments-btn`);
+    const toggleButton = commentsContainer.previousElementSibling;
 
-    if (commentsContainer.style.display === 'none') {
+    if (commentsContainer.style.display === 'none' || commentsContainer.style.display === '') {
         commentsContainer.style.display = 'block';
         toggleButton.textContent = 'Collapse Comments';
     } else {
@@ -64,6 +63,8 @@ function toggleComments(forumId) {
         toggleButton.textContent = 'Expand Comments';
     }
 }
+
+
 
 function postComment(forumId) {
     const commentInput = document.getElementById(`comment-input-${forumId}`);
