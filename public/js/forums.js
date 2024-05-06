@@ -72,7 +72,6 @@ function toggleComments(forumId) {
 
 function postComment(forumId) {
     const commentInput = document.getElementById(`comment-input-${forumId}`);
-    const commentsContainer = document.getElementById(`comments-container-${forumId}`);
 
     if (!commentInput.value.trim()) {
         alert('Please write something before submitting.');
