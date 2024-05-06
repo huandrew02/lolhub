@@ -44,7 +44,11 @@ function fetchForums() {
                 <div class="comments-container" id="comments-container-${forum.id}" style="display: none;"></div>
             `;
             forumsList.appendChild(forumDiv);
-            fetchComments(forum.id, `comments-container-${forum.id}`);
+            console.log(`Fetching comments for forum ${forum.id}`);
+            // Delay the execution of fetchComments by 100ms
+            setTimeout(() => {
+                fetchComments(forum.id, `comments-container-${forum.id}`);
+            }, 100);
         });
     })
     .catch(error => console.error('Error fetching forums:', error));
@@ -86,7 +90,8 @@ function postComment(forumId) {
     .then(message => {
         alert(message);
         commentInput.value = ''; // Clear input after posting
-        fetchComments(forumId, commentsContainer); // Refresh comments
+        // Fetch comments immediately after posting
+        fetchComments(forumId, `comments-container-${forumId}`);
     })
     .catch(error => console.error('Error posting comment:', error));
 }

@@ -2,6 +2,8 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const fs = require('fs');
 const path = require('path');
+const bcrypt = require('bcrypt');
+const { MongoClient } = require('mongodb');
 
 const app = express();
 const port = process.env.PORT || 3000;
@@ -12,11 +14,29 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 const forumsFilePath = path.join(__dirname, 'data', 'forums.json');
 const forumIdFilePath = path.join(__dirname, 'data', 'forumId.json');
+const uri = 'mongodb://localhost:27017';
+const client = new MongoClient(uri);
+
+async function connectToDatabase() {
+    try {
+        await client.connect();
+        console.log('Connected to MongoDB');
+    } catch (err) {
+        console.error('Error connecting to MongoDB:', err);
+    }
+}
+
+connectToDatabase();
+
+// Define MongoDB collections for users
+const db = client.db('forumDB');
+const usersCollection = db.collection('users');
 
 // Ensure data directory and file exist
 if (!fs.existsSync(path.join(__dirname, 'data'))) {
     fs.mkdirSync(path.join(__dirname, 'data'));
 }
+
 
 // Initialize forumId from file or set to 1 if file doesn't exist
 let forumId = 1;
@@ -115,6 +135,52 @@ app.get('/forums/:id/messages', (req, res) => {
             res.status(404).send('Forum not found.');
         }
     });
+});
+
+// Register endpoint
+app.post('/register', async (req, res) => {
+    const { username, password } = req.body;
+
+    try {
+        // Check if username already exists
+        const existingUser = await usersCollection.findOne({ username });
+        if (existingUser) {
+            return res.status(400).send('Username already exists');
+        }
+
+        // Hash password and save user to database
+        const hashedPassword = await bcrypt.hash(password, 10);
+        await usersCollection.insertOne({ username, password: hashedPassword });
+
+        res.send('Registration successful');
+    } catch (err) {
+        console.error('Error registering user:', err);
+        res.status(500).send('Registration failed');
+    }
+});
+
+// Login endpoint
+app.post('/login', async (req, res) => {
+    const { username, password } = req.body;
+
+    try {
+        // Find user by username
+        const user = await usersCollection.findOne({ username });
+        if (!user) {
+            return res.status(401).send('Invalid username or password');
+        }
+
+        // Compare passwords
+        const passwordMatch = await bcrypt.compare(password, user.password);
+        if (!passwordMatch) {
+            return res.status(401).send('Invalid username or password');
+        }
+
+        res.send('Login successful');
+    } catch (err) {
+        console.error('Error logging in user:', err);
+        res.status(500).send('Login failed');
+    }
 });
 
 app.listen(port, () => {

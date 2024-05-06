@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Register</title>
+    <link rel="stylesheet" href="../css/login_register.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/palatte.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">LoL Hub</div>
+        <nav>
+            <ul>
+                <li><a href="../html/index.html">Home</a></li>
+                <li><a href="../html/champions.html">Champions</a></li>
+                <li><a href="../html/patchNotes.html">Patch Notes</a></li>
+                <li><a href="../html/forum.html">Community Forum</a></li>
+                <li><a href="../html/login_register.html">Login/Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="login-container">
+            <h1>Login</h1>
+            <form id="loginForm">
+                <label for="loginUsername">Username:</label>
+                <input type="text" id="loginUsername" name="username" required><br>
+                <label for="loginPassword">Password:</label>
+                <input type="password" id="loginPassword" name="password" required><br>
+                <button type="submit">Login</button>
+            </form>
+            <p class="register-link">Don't have an account? <a href="#" id="registerLink">Register now</a></p>
+        </div>
+
+        <div class="register-container hidden">
+            <h1>Register</h1>
+            <form id="registerForm">
+                <label for="registerUsername">Username:</label>
+                <input type="text" id="registerUsername" name="username" required><br>
+                <label for="registerPassword">Password:</label>
+                <input type="password" id="registerPassword" name="password" required><br>
+                <button type="submit">Register</button>
+            </form>
+            <p class="back-to-login"><a href="#" id="backToLoginLink">Back to Login</a></p>
+        </div>
+    </div>
+
+    <script src="../js/login_register.js"></script>
+</body>
+</html>
