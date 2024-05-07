@@ -1,16 +1,21 @@
 # Requirements
 
 MongoDB
+Node
+npm
+
+# Set Up
+
+goto project directory
+Run 'npm install' to install all the required dependencies
 
 # How to Run
 
-goto the project path in terminal<br>
+goto the project directory terminal<br>
 enter 'node server.js'<br>
 goto http://localhost:3000<br>
 
 # MongoDB Installation Guide
-
-This guide will walk you through the process of downloading and installing MongoDB for use with LoLHub.
 
 ## Step 1: Download MongoDB
 
