@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=../css/quiz.css>
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/palatte.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>League of Legends Quiz</title>
+</head>
+<body>
+    <header>
+        <div class="logo">LoL Hub</div>
+        <nav>
+            <ul>
+                <li><a href="../html/index.html">Home</a></li>
+                <li><a href="../html/champions.html">Champions</a></li>
+                <li><a href="../html/patchNotes.html">Patch Notes</a></li>
+                <li><a href="../html/forum.html">Community Forum</a></li>
+                <li><a href="../html/login_register.html">Login/Register</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="quiz-container" id="quiz">
+        <div class="quiz-header">
+            <h2 id="question">question text</h2>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" id="a" class="answer">
+                    <label for="a" id="a_text">Question</label>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" id="b" class="answer">
+                    <label for="b" id="b_text">Question</label>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" id="c" class="answer">
+                    <label for="c" id="c_text">Question</label>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" id="d" class="answer">
+                    <label for="d" id="d_text">Question</label>
+                </li>
+            </ul>
+        </div>
+        <button id="submit">Submit</button>
+    </div>
+    <script src="../js/quiz.js"></script>
+</body>
+</html>
