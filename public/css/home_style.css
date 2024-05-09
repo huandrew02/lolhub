@@ -37,10 +37,14 @@ nav ul li a {
     text-decoration: none;
 }
 
-h1 {
+h1{
     text-align: center;
     margin-top: 20px;
     color: var(--strong-orange);
+}
+
+h2{
+    text-align: center;
 }
 
 .banner {
@@ -56,19 +60,18 @@ h1 {
     height: 100%;
     width: 100%;
     transform: translate(-50%, -50%);
-    object-fit: cover; /* Maintain aspect ratio and cover container */
-    z-index: -1; /* Ensures the video stays in the background */
+    object-fit: cover; 
+    z-index: -1; 
 }
   
 .banner-content {
     position: relative;
-    z-index: 1; /* Ensures text appears above the video */
-    color: #ffffff; /* Ensures text is readable over the video */
-    text-align: center; /* Centers the text */
-    padding: 50px 20px; /* Adds padding around the text */
+    z-index: 1;
+    color: #ffffff; 
+    text-align: center; 
+    padding: 50px 20px; 
 }
   
-
 
 .latest-news, .intro-lol, .featured-guides, .community-spotlight {
     padding: 20px;
@@ -84,27 +87,28 @@ h1 {
 
 .patches-container {
     display: flex;
-    justify-content: space-evenly; /* Adjust based on your layout preference */
-    flex-wrap: wrap; /* Allows items to wrap as needed */
+    justify-content: space-evenly; 
+    flex-wrap: wrap; 
 }
 
 .patch-note-card {
-    flex: 1 1 45%; /* Adjust the flex-basis to control the card size */
-    max-width: 45%; /* Prevents the card from growing too large */
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: adds shadow for depth */
-    margin: 10px; /* Spacing between cards */
-    display: flex; /* Makes the image and info side by side */
-    align-items: center; /* Aligns items vertically */
+    flex: 1 1 45%; 
+    max-width: 45%; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+    margin: 10px; 
+    display: flex; 
+    align-items: center; 
 }
 
 .patch-note-info {
     padding: 20px;
+    font-size: 18px;
+    font-weight: normal;
 }
 
 .patch-note-info a{
     position: top;
 }
-
 
 footer {
     background-color: #333;
@@ -112,7 +116,6 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
-
 
 
 /*Udemy Day 20 Button Ripple affect*/
@@ -125,16 +128,16 @@ button{
     letter-spacing: 2px;
     padding: 20px 30px;
     overflow: hidden;
-    margin: 10px 0;
+    margin: 10px auto;
+    display: block;
     position: relative;
-
 }
 
 button:focus{
     outline: none;
 }
 
-button .circle{
+.circle{
     position: absolute;
     background-color: #fff;
     width: 100px;
@@ -143,6 +146,7 @@ button .circle{
     transform: translate(-50%,-50%) scale(0);
     animation: scale 0.5s ease-out;
 }
+
 
 @keyframes scale{
     to{
