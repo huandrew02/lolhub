@@ -1,18 +1,62 @@
 
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: var(--strong-orange);
+}
+
 .banner {
     position: relative;
     overflow: hidden;
-    height: 400px; /* Example height, adjust as necessary */
+    height: 400px;
 }
   
 #bannerVideo {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: auto;
     height: 100%;
+    width: 100%;
     transform: translate(-50%, -50%);
-    min-width: 100%;
+    object-fit: cover; /* Maintain aspect ratio and cover container */
     z-index: -1; /* Ensures the video stays in the background */
 }
   
@@ -68,6 +112,7 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
+
 
 
 /*Udemy Day 20 Button Ripple affect*/

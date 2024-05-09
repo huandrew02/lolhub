@@ -1,3 +1,49 @@
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: var(--strong-orange);
+}
+
+
 .title {
     margin-top: 10px;
     color: var(--strong-orange);
@@ -13,13 +59,9 @@ main {
     display: flex;
     flex-direction: column;
     gap: 20px;
-}
-
-.patch {
-    background-color: #eed9c4;
-    border: 1px solid #dddddd;
+    width: 90%;
+    margin: 0 auto;
     padding: 20px;
-    border-radius: 8px;
 }
 
 .patch h2 {
@@ -37,4 +79,11 @@ main {
     max-width: 400px; 
     border: 2px solid #333; 
     border-radius: 5px; 
+}
+
+.patch {
+    background-color: #eed9c4;
+    border: 1px solid #dddddd;
+    padding: 20px;
+    border-radius: 8px;
 }

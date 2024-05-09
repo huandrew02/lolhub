@@ -1,91 +1,157 @@
+/* forums.css */
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f2f5;
-
-    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
 }
 
-#newForumForm, #forumsList {
-    margin-top: 20px;
-}
-
-input, textarea {
-    width: 100%;
-    padding: 8px;
-    margin-top: 5px;
-}
-
-button {
-    padding: 10px 20px;
-    background-color: #10b692;
+header {
+    background-color: #333;
     color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #326dac;
-}
-
-.header {
-    background-color: #ffffff;
-    width: 100%;
-    padding: 10px 20px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 10px 0;
     text-align: center;
 }
 
-.main-container {
-    width: 80%;
-    max-width: 980px;
-    margin-top: 20px;
+.logo {
+    font-size: 24px;
+    font-weight: bold;
 }
 
-.forum {
-    background-color: #ffffff;
-    margin-bottom: 10px;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-}
-
-.forum h3 {
-    margin-top: 0;
-    color: #333;
-}
-
-.forum p {
-    color: #666;
-}
-
-.comment-input,
-.comments-container {
-    width: 100%;
+nav {
     margin-top: 10px;
 }
 
-.comment-input {
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: var(--strong-orange);
+}
+
+#newForumForm {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 50%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#forumTitle {
+    width: calc(100% - 20px);
     padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box; /* Ensures padding doesn't affect width */
-}
-
-.comment {
-    background-color: #f8f9fa;
-    border-bottom: 1px solid #eee;
-    padding: 8px;
-    color: #333;
-}
-
-.comments-container {
-    background: #f0f0f0;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-}
-
-.toggle-comments-btn {
     margin-bottom: 10px;
-    margin-left: 10px; /* Added margin to separate the buttons */
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#forumDescription {
+    width: calc(100% - 20px); 
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+
+#createForumButton {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#forumsList {
+    margin: 0 auto;
+    width: 80%;
+}
+
+/* Add this rule to style the forum container */
+.forum {
+    background-color: white;
+    padding: 20px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Add this rule to style the forum title */
+.forum h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+/* Add this rule to style the forum description */
+.forum p {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+/* Add this rule to style the comment input */
+.comment-input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Add this rule to style the submit comment button */
+.forum button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+/* Add this rule to style the toggle comments button */
+.toggle-comments-btn {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+/* Add this rule to style the comments container */
+.comments-container {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Add this rule to style the individual comments */
+.comment {
+    background-color: white;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
