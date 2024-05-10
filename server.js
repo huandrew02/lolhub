@@ -5,6 +5,8 @@ const path = require('path');
 const bcrypt = require('bcrypt');
 const { MongoClient } = require('mongodb');
 
+process.env.API_KEY = 'sk-proj-3kSj7gFlHwWeiGJIjzyPT3BlbkFJnikEwGq0XEMLALOLAuNG';
+
 const app = express();
 const port = process.env.PORT || 3000;
 
@@ -50,6 +52,12 @@ if (fs.existsSync(forumIdFilePath)) {
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'html', 'index.html'));
 });
+
+
+app.get('/', (req, res) => {
+    res.render('index', { apiKey: process.env.API_KEY });
+});
+
 
 // Get all forums
 app.get('/forums', (req, res) => {
