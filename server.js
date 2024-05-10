@@ -4,8 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const bcrypt = require('bcrypt');
 const { MongoClient } = require('mongodb');
-
-process.env.API_KEY = 'sk-proj-3kSj7gFlHwWeiGJIjzyPT3BlbkFJnikEwGq0XEMLALOLAuNG';
+require('dotenv').config();
 
 const app = express();
 const port = process.env.PORT || 3000;
@@ -54,8 +53,9 @@ app.get('/', (req, res) => {
 });
 
 
-app.get('/', (req, res) => {
-    res.render('index', { apiKey: process.env.API_KEY });
+// Inject API_KEY into the rendered HTML
+app.get('/home', (req, res) => {
+    res.render('home', { apiKey: process.env.API_KEY });
 });
 
 
