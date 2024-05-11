@@ -5,74 +5,67 @@ body {
     font-family:  "Cormorant", serif;
     margin: 0;
     padding: 0;
-    background-color: #f2f2f2;
-}
-
-header {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
-}
-
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-nav {
-    margin-top: 10px;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline-block;
-    margin-right: 10px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
+    background : linear-gradient( var(--coolG) 70%, var(--grey)20%,#010A13);
 }
 
 h1{
     text-align: center;
     margin-top: 20px;
     color: var(--strong-orange);
+    font-size: 2.3rem;
 }
 
 h2{
     text-align: center;
+    font-size: 2rem;
+    color: var(--burntY);
+    padding: 5px;
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(to right,  var(--coolG), var(--cream), var(--coolG));
+    border-image-slice: 1;
 }
 
 .banner {
+    display: flex;
+    
+    justify-content: center;
     position: relative;
     overflow: hidden;
-    height: 400px;
+    height: 80vh;
 }
   
 #bannerVideo {
     position: absolute;
     top: 50%;
     left: 50%;
-    height: 100%;
+
     width: 100%;
+    
     transform: translate(-50%, -50%);
     object-fit: cover; 
     z-index: -1; 
 }
   
 .banner-content {
-    position: relative;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
     z-index: 1;
     color: #ffffff; 
     text-align: center; 
     padding: 50px 20px; 
 }
+
+.banner-content > p{
+
+}
+.banner-content > h1{
+    background: linear-gradient( var(--coolG), var(--burntY),var(--cream), var(--burntY),var(--coolG));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
 /*
     IMAGE CAROUSEL used udemy day 35 
 */
@@ -80,10 +73,15 @@ h2{
 .latest-champ-carousel{
     display:flex;
     flex-direction: column;
+    justify-content: center;
     align-items:center;
-    
+    background-size: cover;
+    background-image: linear-gradient( rgba(15, 15, 15, 0.747), rgba(115, 115, 115, 0.49)), url(../imgs_vids/latest_champs/nafiri-splash.jpg);
+    fill-opacity: 50%;
+   
     height: 85vh;
     margin:0;
+    color: var(--burntY);
 }
 .champ-profile{
     display: flex;
@@ -92,61 +90,63 @@ h2{
     height: 70vh;
     width:60vw;
     object-fit: cover;
-    
 }
 .champ-info{
     position: absolute;
     text-align: center;
     justify-content: center;
     align-self:center;
-    bottom:2.5vh;
-
-    background-color: #000;
+    bottom:3vh;
+    padding: 4vh;
+    width: 60vw;
+    background-color: var(--coolG);
     color: var(--burntY);
 }
 .champ-info p, .champ-info h2 {
     padding: 0;
     margin: 0;
+    width : 15vw;
+    
 
 }
 .champ-img{
-    height: 60vh;
-    width:60vw;
+    object-fit: cover;
 }
 .img-carousel{
     box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
-    height: 70vh;
+    height: 65vh;
     width: 60vw;
     overflow: hidden;
 }
-
 .image-container{
     display: flex;
-    height: 70vh;
+    height: inherit;
     transform: translateX(0);
     transition: transform 0.5s ease-in-out;
-   
 }
-
 .buttons-container{
     display: flex;
     width: 40vh;
-    justify-content: space-between;  
+    justify-content: space-between; 
+    
 }
-
 .carousel-button{
-    background-color: rebeccapurple;
+    background-color: var(--coolG);
     color: white;
     border: none;
     padding: 0.5rem;
     cursor: pointer;
     width: 33%;
+
+    border: 1px solid transparent; /* Top border */
+    
+    border-image: linear-gradient(to right, var(--burntY), var(--burtnG));
+    border-image-slice: 1; 
     
 }
 .carousel-button:hover{
     opacity: 0.8;
 }
-
 .carousel-button:focus{
     outline:none;
 }
@@ -154,7 +154,17 @@ h2{
     ^^^^^^^^^^^^^^^^^^^
     IMAGE CAROUSEL css ABOVE 
 */
-.latest-news, .intro-lol, .featured-guides, .community-spotlight {
+
+.intro-lol{
+    padding: 5vw 10vw;
+}
+.intro-lol > p {
+    font-size: 1.2rem;
+    color: var(--cream);
+}
+
+
+.latest-news, .featured-guides, .community-spotlight {
     padding: 20px;
     text-align: center;
 }
@@ -243,9 +253,7 @@ footer {
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
-body {
-    background: #E3F2FD;
-}
+
 .chatbot-toggler {
     position: fixed;
     bottom: 30px;
@@ -315,7 +323,7 @@ body.show-chatbot .chatbot {
     transform: translateY(-50%);
 }
 header h2 {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
 }
 .chatbot .chatbox {
     overflow-y: auto;
