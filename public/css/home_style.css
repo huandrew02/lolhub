@@ -57,6 +57,7 @@ h2{
 }
 
 .banner-content > p{
+    font-size: 2rem;
 
 }
 .banner-content > h1{
@@ -64,6 +65,7 @@ h2{
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    font-size: 3rem;
 }
 
 /*
@@ -79,7 +81,7 @@ h2{
     background-image: linear-gradient( rgba(15, 15, 15, 0.747), rgba(115, 115, 115, 0.49)), url(../imgs_vids/latest_champs/nafiri-splash.jpg);
     fill-opacity: 50%;
    
-    height: 85vh;
+    height: 95vh;
     margin:0;
     color: var(--burntY);
 }
@@ -87,34 +89,60 @@ h2{
     display: flex;
     position: relative;
     flex-direction: column;
-    height: 70vh;
+    height: 80vh;
     width:60vw;
     object-fit: cover;
 }
+.divimg{
+    display: flex;
+    height: 70vh;
+    width: 60vw;
+}
+
 .champ-info{
-    position: absolute;
+    position: relative;
     text-align: center;
     justify-content: center;
     align-self:center;
-    bottom:3vh;
-    padding: 4vh;
+    height: 6vh;
+    padding: 2vh;
     width: 60vw;
     background-color: var(--coolG);
     color: var(--burntY);
 }
 .champ-info p, .champ-info h2 {
+    position: relative;
     padding: 0;
     margin: 0;
-    width : 15vw;
+    width : 60vw;
     
-
+    border: none;
+    justify-content: center;
 }
-.champ-img{
+
+.champ-info p{
+    
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.champ-info h2{
+    background: linear-gradient( var(--coolG), var(--burntY),var(--cream), var(--cream),var(--cream),var(--burntY),var(--coolG));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  
+}
+
+div  .champ-img{
+    width: 100%;
+    height: 100%; 
     object-fit: cover;
 }
+
 .img-carousel{
     box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
-    height: 65vh;
+    height: 80vh;
     width: 60vw;
     overflow: hidden;
 }
@@ -189,27 +217,45 @@ h2{
     margin: 10px; 
     display: flex; 
     align-items: center; 
+    color: var(--cream);
 }
 
 .patch-note-info {
     padding: 20px;
-    font-size: 18px;
+    font-size: 1.2rem;
     font-weight: normal;
+
 }
 
 .patch-note-info a{
     position: top;
+    color: var(--burntY);
+    transition: opacity .3s ease-in-out;
+
+}
+.patch-note-info a:visited{
+    color: var(--burntY);
+    
+}
+.patch-note-info a:hover{
+    opacity: 50%;
 }
 
 footer {
-    background-color: #333;
+    background-color: linear-gradient(black,var(--coolG));
     color: #fff;
     text-align: center;
-    padding: 10px 0;
+    padding: 12px;
+
+    font-size: 1.2rem;
 }
 
 
 /*Udemy Day 20 Button Ripple affect*/
+.quiz-section > div{
+    width: 100vw;
+}
+
 .ripple{
     background-color:#606c38;
     color: white;
@@ -248,11 +294,12 @@ footer {
 
 /*CHATBOT*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-* {
+.chatbot-section{
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+
 
 .chatbot-toggler {
     position: fixed;
@@ -324,6 +371,8 @@ body.show-chatbot .chatbot {
 }
 header h2 {
     font-size: 1.8rem;
+    color: white;
+    border:none;
 }
 .chatbot .chatbox {
     overflow-y: auto;

@@ -23,6 +23,8 @@ function changeImage(){
     }else if (idx<0){
         idx = img.length-1;
     }
+    let screenWidth = window.innerWidth
+    console.log(screenWidth)
     imgs.style.transform=`translateX(${-idx*60}vw)`;
     let imageURL =img[idx].src;
     console.log("url('"+imageURL.substring(21)+"')");

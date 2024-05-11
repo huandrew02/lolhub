@@ -1,10 +1,12 @@
 @import url(theme/theme.css);
 
 header {
-    background-color: var(--dark);
+    background-color: var(--coolG);
     color: #f8e5e5;
     padding: 20px;
     text-align: center;
+
+    border-bottom: 1 solid transparent;
 }
 
 body {
@@ -18,7 +20,13 @@ body {
 
 
 header .logo {
-    font-size: 24px;
+    font-size: 2rem;
+    color: transparent;
+    background: linear-gradient(var(--coolG), var(--burntY),var(--cream), var(--burntY),var(--coolG));
+    -webkit-background-clip: text;
+    background-clip: text;
+    padding: 10px;
+
 }
 
 footer {
@@ -41,6 +49,30 @@ nav ul li {
 }
 
 nav ul li a {
+    font-size: 1.5rem;
+    padding: 5px;
     color: #fff;
     text-decoration: none;
+    border: 1px solid transparent;
+
+    color: var(--burntY);
+
+    border-image: linear-gradient(to right, var(--burntY), var(--burtnG));
+    border-image-slice: 1;
+
+    transition: all .5s ease;
+    
+    
+}
+nav ul li a:hover {
+    
+    color: transparent;
+    background: linear-gradient(var(--coolG), var(--burntY),var(--cream), var(--burntY),var(--coolG));
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    
+    border-image: linear-gradient(180deg, var(--burtnG),var(--burntY) );
+    border-image-slice: 1;
+
 }
