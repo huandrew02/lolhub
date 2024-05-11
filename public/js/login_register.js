@@ -55,3 +55,23 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+
+/*
+    FROM HERE DOWN HANDLES THE ANIMATION FORM EFFECT (UDEMY DAY 8)
+
+*/
+
+
+const labels =document.querySelectorAll('.form-control label')
+
+labels.forEach(label => {
+    label.innerHTML = label.innerText
+        .split('')
+        .map((letter,idx) => `<span style = "transition-delay: ${idx*40}ms">${letter}</span>`)
+        .join('');
+})
+
+/* 
+    UDEMY DAY 8 FORM BOUNCE
+
+*/

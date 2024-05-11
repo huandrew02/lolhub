@@ -27,11 +27,17 @@
         <div class="login-container">
             <h1>Login</h1>
             <form id="loginForm">
-                <label for="loginUsername">Username:</label>
-                <input type="text" id="loginUsername" name="username" required><br>
-                <label for="loginPassword">Password:</label>
-                <input type="password" id="loginPassword" name="password" required><br>
-                <button type="submit">Login</button>
+                <div class="form-control">
+                    <input type="text" id="loginUsername" name="username" required>
+                    <label for="loginUsername">Username:</label>
+                    
+                </div>
+                <div class="form-control">
+                    <input type="password" id="loginPassword" name="password" required>
+                    <label for="loginPassword">Password:</label>
+                    
+                </div>
+                <button type="submit" class="btn">Login</button>
             </form>
             <p class="register-link">Don't have an account? <a href="#" id="registerLink">Register now</a></p>
         </div>
@@ -39,11 +45,18 @@
         <div class="register-container hidden">
             <h1>Register</h1>
             <form id="registerForm">
-                <label for="registerUsername">Username:</label>
-                <input type="text" id="registerUsername" name="username" required><br>
-                <label for="registerPassword">Password:</label>
-                <input type="password" id="registerPassword" name="password" required><br>
-                <button type="submit">Register</button>
+                <div class="form-control">
+                    <input type="text" id="registerUsername" name="username" required>
+                    <label >Username:</label>
+                    
+                </div>
+                <div class="form-control">
+                    <input type="password" id="registerPassword" name="password" required>
+                    <label >Password:</label>
+                    
+                </div>
+                
+                <button type="submit" class="btn">Register</button>
             </form>
             <p class="back-to-login"><a href="#" id="backToLoginLink">Back to Login</a></p>
         </div>
