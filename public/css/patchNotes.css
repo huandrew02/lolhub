@@ -64,12 +64,24 @@ main {
     padding: 20px;
 }
 
+
 .patch h2 {
     margin-top: 0;
+    font-size: 2rem;
+}
+
+.patch p {
+    font-size: 1.3rem;
+    
+}
+
+.patch a {
+    color: var(--strong-orange);
+    font-size: 1.2rem;
 }
 
 .patch a:hover {
-    background-color: #aab9d3;
+    opacity: 50%;
 }
 
 #searchBar {
@@ -84,6 +96,6 @@ main {
 .patch {
     background-color: #eed9c4;
     border: 1px solid #dddddd;
-    padding: 20px;
+    padding: 25px;
     border-radius: 8px;
 }

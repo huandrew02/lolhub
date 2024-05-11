@@ -1,13 +1,29 @@
 @import url(theme/theme.css);
 
+@property --angle {
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
+  }
+
 header {
     background-color: var(--coolG);
     color: #f8e5e5;
     padding: 20px;
     text-align: center;
+    
+    --angle: 0deg;
+    border-bottom: 4px solid transparent;
+    border-image: linear-gradient(var(--angle),var(--coolG), var(--burntY),var(--cream)) 1;
+    animation: 8s rotate linear infinite;
 
-    border-bottom: 1 solid transparent;
 }
+
+@keyframes rotate {
+    to {
+      --angle: 360deg;
+    }
+  }
 
 body {
     font-family: "Cormorant", serif;

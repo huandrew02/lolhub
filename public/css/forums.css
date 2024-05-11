@@ -4,7 +4,7 @@ body {
     font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f2f2f2;
+    background:linear-gradient(var(--coolG) 30%, black);
 }
 
 header {
@@ -86,7 +86,7 @@ h1 {
 
 /* Add this rule to style the forum container */
 .forum {
-    background-color: white;
+    background-color: var(--cream);
     padding: 20px;
     padding-right: 30px;
     margin-bottom: 20px;
@@ -98,11 +98,12 @@ h1 {
 .forum h3 {
     margin-top: 0;
     margin-bottom: 5px;
-    font-size: 20px;
+    font-size: 1.5rem;
 }
 
 /* Add this rule to style the forum description */
 .forum p {
+    font-family: 'Raleway', sans-serif;
     margin-top: 0;
     margin-bottom: 10px;
 }
@@ -142,8 +143,10 @@ h1 {
 .comments-container {
     margin-top: 10px;
     padding: 10px;
-    background-color: #f9f9f9;
-    border-radius: 5px;
+    background-color: transparent;
+    border-top-right-radius: 5px; /* Radius for top left corner */
+    border-bottom-right-radius: 5px; /* Radius for bottom left corner */
+    border-left: 2px solid var(--coolG);
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -151,7 +154,7 @@ h1 {
 .comment {
     background-color: white;
     padding: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     border-radius: 3px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
