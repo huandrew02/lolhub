@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
+
+@font-face {
+    font-family: "BeaufortforLOLReg";
+    src: url(fonts/woff/BeaufortforLOL-Regular.woff) format(woff),
+    url(fonts/BeaufortforLOL-Regular.ttf) format(truetype);
+    
+}
+
+@font-face {
+    font-family: 'BeaufortforLOLItalic';
+    src: url('fonts/BeaufortforLOL-Italic.ttf')
+    format('truetype');
+}
+@font-face {
+    font-family: 'BeaufortforLOLlightItalic';
+    src: url('fonts/BeaufortforLOL-LightItalic.ttf')
+    format('truetype');
+}
+@font-face {
+    font-family: 'BeaufortforLOLHeavyItalic';
+    src: url('fonts/BeaufortforLOL-HeavyItalic.ttf')
+    format('truetype');
+}
+
+@font-face {
+    font-family: 'BeaufortforLOLBold';
+    src: url('fonts/BeaufortforLOL-Bold.ttf')
+    format('truetype');
+}
+@font-face {
+    font-family: 'BeaufortforLOLBoldItalic';
+    src: url('fonts/BeaufortforLOL-BoldItalic.ttf')
+    format('truetype');
+}

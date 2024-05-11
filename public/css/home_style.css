@@ -1,6 +1,8 @@
-
+@import url(theme/theme.css);
+@import url(theme/colors.css);
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family:  "Cormorant", serif;
     margin: 0;
     padding: 0;
     background-color: #f2f2f2;
@@ -71,8 +73,87 @@ h2{
     text-align: center; 
     padding: 50px 20px; 
 }
-  
+/*
+    IMAGE CAROUSEL used udemy day 35 
+*/
 
+.latest-champ-carousel{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    
+    height: 85vh;
+    margin:0;
+}
+.champ-profile{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    height: 70vh;
+    width:60vw;
+    object-fit: cover;
+    
+}
+.champ-info{
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    align-self:center;
+    bottom:2.5vh;
+
+    background-color: #000;
+    color: var(--burntY);
+}
+.champ-info p, .champ-info h2 {
+    padding: 0;
+    margin: 0;
+
+}
+.champ-img{
+    height: 60vh;
+    width:60vw;
+}
+.img-carousel{
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    height: 70vh;
+    width: 60vw;
+    overflow: hidden;
+}
+
+.image-container{
+    display: flex;
+    height: 70vh;
+    transform: translateX(0);
+    transition: transform 0.5s ease-in-out;
+   
+}
+
+.buttons-container{
+    display: flex;
+    width: 40vh;
+    justify-content: space-between;  
+}
+
+.carousel-button{
+    background-color: rebeccapurple;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    width: 33%;
+    
+}
+.carousel-button:hover{
+    opacity: 0.8;
+}
+
+.carousel-button:focus{
+    outline:none;
+}
+/*  
+    ^^^^^^^^^^^^^^^^^^^
+    IMAGE CAROUSEL css ABOVE 
+*/
 .latest-news, .intro-lol, .featured-guides, .community-spotlight {
     padding: 20px;
     text-align: center;
@@ -119,7 +200,7 @@ footer {
 
 
 /*Udemy Day 20 Button Ripple affect*/
-button{
+.ripple{
     background-color:#606c38;
     color: white;
     border: 1px #283618;
@@ -133,7 +214,7 @@ button{
     position: relative;
 }
 
-button:focus{
+.ripple:focus{
     outline: none;
 }
 

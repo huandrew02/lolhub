@@ -10,7 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
-</head>
+    <script src="../js/home_carousel.js" defer></script>
+  </head>
 <body>
     <header>
         <div class="logo">LoL Hub</div>
@@ -41,11 +42,72 @@
             <h2>Introduction to League of Legends</h2>
             <p>"League of Legends" (LoL) is a highly competitive, fast-paced action-strategy game designed for those who crave a hard-fought victory. It's a multiplayer online battle arena (MOBA) where players choose from a diverse cast of champions and collaborate with their team to push through enemy defenses and destroy the opposing team's nexus. Each game is a fresh challenge with new opportunities to devise strategies. It's free-to-play, with a constantly evolving roster of champions, each with their own unique abilities and roles within the team.</p>
         </section>
-
+        
+        <section class="latest-champ-carousel">
+          <h2>Look at the latest champion additions!</h2>
+          <div class="img-carousel">
+            
+            <div class="image-container" id="imgs">
+              <div class="champ-profile">
+                <img src="../imgs_vids/latest_champs/nafiri-splash.jpg" 
+                alt="firstImg" class = "champ-img"
+                />
+                <div class="champ-info">
+                  <p class="champ-title">The Hound of A Hundred Bites</p>
+                  <h2 class="champ-name"> NAFFIRI <h2>
+                </div>
+              </div>
+              <div class="champ-profile">
+                <img  src="../imgs_vids/latest_champs/Milio_splash.jpg"
+                alt="firstImg" class = "champ-img"
+                />
+                <div class="champ-info">
+                  <p class="champ-title">The Gentle Flame</p>
+                  <h2 class="champ-name"> MILIO <h2>
+                </div>
+              </div>
+              <div class="champ-profile">
+                <img  src="../imgs_vids/latest_champs/K_Sante_splash.jpg"
+                alt="firstImg" class = "champ-img"
+                />
+                <div class="champ-info">
+                  <p class="champ-title">The Pride of Nazumah</p>
+                  <h2 class="champ-name"> K'SANTE <h2>
+                </div>
+              </div>
+              <div class="champ-profile">
+                <img src="../imgs_vids/latest_champs/nilah_splash.jpg"
+                alt="firstImg" class = "champ-img"
+                />
+                <div class="champ-info">
+                  <p class="champ-title">The Joy Unbound</p>
+                  <h2 class="champ-name"> NILAH <h2>
+                </div>
+              </div>
+              <div class="champ-profile">
+                <img  src="../imgs_vids/latest_champs/belveth_splash.jpg"
+                alt="firstImg" class = "champ-img"
+                />
+                <div class="champ-info">
+                  <p class="champ-title">The Empress of the Void</p>
+                  <h2 class="champ-name"> BEL'VETH <h2>
+                </div>
+              </div>
+            </div><!-- img-container -->
+            
+            
+            
+          </div> <!-- img-carousel -->
+          <div class="buttons-container">
+            <button id="left" class = "carousel-button">&#8592;</button>
+            <button id="playPause" class = carousel-button>&#9654;</button>
+            <button id="right" class = "carousel-button">&#8594;</button>
+          </div><!-- btn-container -->
+        </section>
         
         <h2>Test Your League Of Legends Knowledge<h2>
         <section id="QuizButton">
-            <a href="html/quiz.html">
+            <a href="quiz.html">
                 <button class="ripple">Start Quiz Now!</button>
             </a>            
         </section>            
@@ -85,5 +147,6 @@
     </footer>
 
     <script src="../js/home.js"></script>
+    
 </body>
 </html>
