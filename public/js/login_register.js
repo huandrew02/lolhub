@@ -57,6 +57,28 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 /*
+    UDEMY DAY 39: PASSWORD STRENGTH BACKGROUND
+*/
+const username = document.getElementById('loginUsername');
+const password = document.getElementById('loginPassword');
+const background = document.getElementById('background');
+
+username.addEventListener('input', (e) => {
+    const input = e.target.value;
+    const length = input.length;
+    const blurValue = 20 - length * 2;
+    background.style.filter = `blur(${blurValue}px)`;
+})
+
+password.addEventListener('input', (e) => {
+    const input = e.target.value;
+    const length = input.length;
+    const blurValue = 20 - length * 2;
+    background.style.filter = `blur(${blurValue}px)`;
+})
+
+
+/*
     FROM HERE DOWN HANDLES THE ANIMATION FORM EFFECT (UDEMY DAY 8)
 
 */
