@@ -47,10 +47,6 @@ if (fs.existsSync(forumIdFilePath)) {
     fs.writeFileSync(forumIdFilePath, forumId.toString());
 }
 
-// Route to the homepage
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'html', 'index.html'));
-});
 
 
 // Inject API_KEY into the rendered HTML
@@ -192,5 +188,5 @@ app.post('/login', async (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log(`Server running on http://localhost:${port}`);
+    console.log(`Server running on http://localhost:${port}/html/index.html`);
 });
