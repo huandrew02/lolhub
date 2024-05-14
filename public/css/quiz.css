@@ -2,7 +2,6 @@ body {
     font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f2f2f2;
 }
 
 header {
@@ -43,7 +42,7 @@ h1 {
 }
 
 .quiz-container {
-    background-color: #fff;
+    background-color: cyan;
     border-radius: 1px;
     box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
     width: 600px;
